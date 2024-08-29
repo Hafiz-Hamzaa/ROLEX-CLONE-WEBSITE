@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;   
+}
+header{
+    background: linear-gradient(90deg, #0b3e27, #197149);
+    min-width: 914px;
+    height: 90px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    display: flex;
+    align-self: center;
+}
+.line_icon{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.menu_letters{
+    font-size: clamp(0.75rem, 0.625rem + 0.3125vw, 1rem);
+    line-height: 1.375;
+    font-weight: 400;
+    width: 33.95px;
+    height: 18px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.image_class{
+    width: 120px;
+    height: 53px;
+    margin-left: 430px;
+}    
+.action_bar{
+    margin-left: 340px;
+    color: #ffffff;
+}
+.search_icon{
+    margin-right: 30px;
+    
+}
+.location_icon{
+    margin-right: 30px;
+}
+.background_clip{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.explore_heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    width: 626px;
+    height: 42px;
+    margin: 0px 0px 40px;
+    margin-left: 10%;
+    margin-top: 50px;
+    color: #0b3e27;
+    color: #0b3e27, #197149;
+}
+p {display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+font-weight: 300;
+line-height: 1.6;
+font-size: 20px;
+display: inline-block;
+width: 626px;
+height: 190px;
+color: #212121;
+margin-left: 51%;
+position: relative;
+bottom: 100px;
+}
+p span{
+    font-size: 17px;
+    font-weight: 750;
+    color: green;
+}
+.navigation_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    margin: 0px 0px 0px 25px;
+    padding: 0px 25px 0px 0px;
+    
+}
+.setting{
+    margin-left: 100px;
+    position: relative;
+    left: 300px;
+}
+.setting1{
+    margin-left: 200px;
+    position: relative;
+    left: 40px;
+}
+.setting2{
+    position: relative;
+    right: 50px;
+}
+.setting3{
+    position: relative;
+    right: 150px;
+}
+.green_but{
+    border-radius: 15px;
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+    margin-right: 4%;
+    width: 106px;
+    height: 30px;
+
+}
+.image1{
+    margin-top: 45px;
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/premium-photo/red-background-with-red-background-that-says-no_1234738-452473.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/07/02/11/13/rolex-3511356_640.jpg); */
+    background-size: cover;
+}
+.image2{
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/premium-photo/luxury-wristwatch-lies-dashboard-highend-car_14117-724858.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;   
+}
+.image3{
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/premium-photo/luxury-wristwatch-with-blue-face-black-leather-strap_14117-1090544.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+.image4{
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/premium-photo/rooted-rich-heritage-tradition-nd-ima-generative-ai_1169649-124280.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;   
+}
+.image5{
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5810.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;   
+}
+.image7{
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/free-photo/handsome-businesman-summer-city_1157-25611.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;   
+}
+.image6{
+    width: 1296px;
+    height: 650px;
+    border: 0px solid white;
+    background-image: url(https://img.freepik.com/free-photo/rehearsal-preparation-groom-s-watch-hand_8353-5808.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;   
+}
+.some_text{
+    color: gray;
+    margin-top: 170px;
+    position: relative;
+    font-size: 14px;
+    right: 570px;
+
+}
+.span_tag{
+    color: #197149;
+    font-size: 14px;
+}
+.share_text{
+    font-weight: 700;
+    margin-left: 90px;
+    position: relative;
+    bottom: 216px;
+}
+.icon{
+    position: relative;
+    bottom: 210px;
+    left: 30px;
+}
+#one{
+    margin-left: 50px;
+}
+#two{
+    margin-left: 50px;
+
+}
+#three{
+    margin-left: 50px;
+    color: #0b3e27;
+
+}
+#four{
+    margin-left: 50px;
+    color: #0b3e27
+}
+img{
+    width: 90px;
+    height: 40px;
+    position: relative;
+    bottom: 95px;
+    left: 80px;
+}
+.h2_head{
+    color: #0b3e27;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: relative;
+    bottom: 200px;
+}
+
+.anchor{
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    line-height: 1.5;
+    display: inline;
+    position: relative;
+    left: 280px;
+    bottom: 230px;
+}
+.h2_heading{
+    position: relative;
+    left: 280px;
+    bottom: 235px;
+}
+
+
+
+.anchor{
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    line-height: 1.5;
+    display: inline;
+    position: relative;
+    left: 280px;
+    bottom: 230px;
+}
+.h2_heading{
+    position: relative;
+    left: 280px;
+    bottom: 235px;
+}
+
+
+.anchors{
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    line-height: 1.5;
+    display: inline;
+    position: relative;
+    left: 800px;
+    bottom: 605px;
+}
+.h2_headings{
+    position: relative;
+    left: 800px;
+    bottom: 610px;
+}
+
+.anchors{
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    line-height: 1.5;
+    display: inline;
+    position: relative;
+    left: 800px;
+    bottom: 605px;
+}
+.h2_headings{
+    position: relative;
+    left: 800px;
+    bottom: 610px;
+}
+.footer_image{
+    width: 1296px;
+    height: 450px;
+    border-top: 2px solid white;
+    position: relative;
+    bottom: 550px;
+    background-image: url(https://img.freepik.com/premium-psd/fantastic-sunrise-top-mountain-with-views-across-valley-mountain-view_282218-14433.jpg?ga=GA1.2.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
